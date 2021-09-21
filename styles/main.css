@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'notosans';
+    src: url("/fonts/notosans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'notosansbold';
+    src: url("/fonts/notosansbold.ttf") format("truetype");
+}
+
+body {
+    margin: auto;
+    background-image: url('/images/121212.png');
+    color: #FFFFFF;
+    font-family: notosans;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    overflow: hidden;
+    height: 440px;
+    width: 100%;
+    background: url(/images/header.jpg);
+}
+
+.header-center {
+    text-align: center;
+}
+
+.header-main-text {
+    margin-top: 180px;
+    font-size: 40px;
+    font-family: notosansbold;
+}
+
+.header-main-description {
+    margin-top: 20px;
+}
+
+.header-main-description p {
+    margin: 0;
+}
+
+.header-main-description a {
+    text-decoration: underline #FFFFFF;
+    color: #FFFFFF;
+}
+
+.header-main-soc {
+    margin-top: 20px;
+}
+
+.header-main-soc img {
+    margin-right: 10px;
+    transition: 0.2s;
+    transform: scale(1, 1);
+    opacity: 100%;
+}
+
+.header-main-soc img:hover {
+    transition: 0.2s;
+    transform: scale(1.05, 1.05);
+    opacity: 80%;
+}
+
+.continer {
+    margin: auto;
+    width: 1260px;
+}
+
+.continer-20px {
+    margin: auto;
+    height: 20px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    color: #727272;
+    padding-bottom: 20px;
+}
