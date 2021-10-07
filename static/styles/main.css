@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'notosans';
-    src: url("/fonts/notosans.ttf") format("truetype");
+    src: url("../fonts/notosans.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'notosansbold';
-    src: url("/fonts/notosansbold.ttf") format("truetype");
+    src: url("../fonts/notosansbold.ttf") format("truetype");
 }
 
 body {
     margin: auto;
-    background-image: url('/images/121212.png');
+    background-image: url('../images/121212.png');
     color: #FFFFFF;
     font-family: notosans;
 }
@@ -25,7 +25,7 @@ header {
     overflow: hidden;
     height: 440px;
     width: 100%;
-    background: url(/images/header.jpg);
+    background: url(../images/header.jpg);
 }
 
 .header-center {
